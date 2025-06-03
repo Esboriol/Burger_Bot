@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erro - Burger Mania</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f8f9fa;
+        }
+        .error-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #e74c3c;
+        }
+        .contact-info {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f1f8ff;
+            border-radius: 8px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #e74c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1>😕 Ops! Algo deu errado</h1>
+        <p>{{ message }}</p>
+        <p>Pedimos desculpas pelo inconveniente. Nossa equipe já foi notificada e está trabalhando para resolver.</p>
+
+        <div class="contact-info">
+            <h3>Enquanto isso, você pode:</h3>
+            <p>📞 Ligar para: (11) 9999-8888</p>
+            <p>📍 Visitar nosso restaurante: Rua das Hamburguerias, 123</p>
+            <p>🔄 <a href="/" class="btn">Tentar recarregar a página</a></p>
+        </div>
+    </div>
+</body>
+</html>
